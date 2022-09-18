@@ -5,7 +5,7 @@ import logging
 
 logging.basicConfig(
     level=logging.INFO,
-    format= "[%(ascitime)s:%(levelname)s]: %(message)s"
+    format= "[%(asctime)s:%(levelname)s]: %(message)s"
 )
 
 while True:
